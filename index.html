@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Semester GPA & CGPA Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Semester GPA & CGPA Calculator</h1>
+  <div class="container">
+    <div>
+      <label for="scaleSelect"><strong>Select GPA Scale:</strong></label>
+      <select id="scaleSelect" onchange="updateScale()">
+        <option value="4" selected>4‑point scale</option>
+        <option value="5">5‑point scale</option>
+        <option value="10">10‑point scale</option>
+      </select>
+    </div>
+
+    <div id="semesters"></div>
+    <button onclick="addSemester()">Add Semester</button>
+
+    <div class="results">
+      <p id="cgpa">Cumulative CGPA: -</p>
+    </div>
+
+    <div class="simulation">
+      <h2>What‑If Simulation</h2>
+      <p>Enter hypothetical future semester GPA and credits:</p>
+      <input type="number" id="futureGPA" placeholder="Future GPA" step="0.01">
+      <input type="number" id="futureCredits" placeholder="Credits" step="1">
+      <button onclick="simulateFuture()">Simulate</button>
+      <p id="simulationResult">Projected CGPA: -</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

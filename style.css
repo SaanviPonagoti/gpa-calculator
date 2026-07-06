@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background: #ffeef2; /* pastel pink background */
+  color: #333;
+}
+h1 {
+  text-align: center;
+  color: #b84d6f;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #fff0f5; /* light pastel pink box */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(184,77,111,0.2);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+table, th, td {
+  border: 1px solid #f5c6d6;
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+button {
+  background: #f7a1c4;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 5px;
+}
+button:hover {
+  background: #e68bb0;
+}
+.results {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #b84d6f;
+}
+.simulation {
+  margin-top: 30px;
+  padding: 15px;
+  background: #ffd6e8;
+  border-radius: 8px;
+}
+.semester-block {
+  margin-bottom: 25px;
+  padding: 15px;
+  background: #fffafa;
+  border-radius: 8px;
+  border: 1px solid #f5c6d6;
+}
